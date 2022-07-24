@@ -1,0 +1,12 @@
+h1{
+    background-color: hsl(0, 0%, 64%);
+    /*margin-left: 100px;
+    margin-bottom: 200px;*/
+    /*margin: 100px*/
+    /*margin: 200px 100px;*/
+    margin: 100px 10px 20px 500px; /*arriba izq abajo derecha*/
+}
+p{
+    background-color: aqua;
+    padding: 100px;
+}
