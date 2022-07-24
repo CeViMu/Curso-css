@@ -1,3 +1,9 @@
-h2{
-    color: rebeccapurple;
+h1{
+    color: tomato;
+    font-size: larger;
+}
+
+#unico{
+    color: rgb(27, 114, 246);
+    font-size: larger;
 }
