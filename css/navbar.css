@@ -13,4 +13,20 @@
 nav{
     background: purple;
     padding: 20px;
+    display: flex;
+    /*justify-content: center;
+    justify-content: space-between;
+    justify-content: flex-start;
+    justify-content: flex-end;*/
+    justify-content: space-around; /*posicion al lado derecho*/
+}
+
+@media (max-width: 600px){
+    nav{
+        background: black;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0px;
+    }
 }
