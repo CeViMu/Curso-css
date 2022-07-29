@@ -1,0 +1,16 @@
+.nav-enlace{
+    display: inline-block;
+    background: salmon;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none; 
+}
+
+.nav-enlace:hover{
+    background: rosybrown;
+} /*propiedad a cambiar cuando el mouse este encima*/
+
+nav{
+    background: purple;
+    padding: 20px;
+}

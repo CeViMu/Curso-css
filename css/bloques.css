@@ -1,0 +1,9 @@
+h1{
+    background-color: #7f7f7f;
+    display: inline-block;
+}
+
+a{
+    background: salmon;
+    display: block;
+}
