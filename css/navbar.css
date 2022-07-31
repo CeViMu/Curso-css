@@ -21,6 +21,14 @@ nav{
     justify-content: space-around; /*posicion al lado derecho*/
 }
 
+.nav-boton{
+    background: salmon;
+    color: #fff;
+    padding: 10px 0px;
+    border: 2px solid #fff;
+    display: none; /*no aparece el cuadro de menu*/
+}
+
 @media (max-width: 600px){
     nav{
         background: black;
@@ -28,5 +36,11 @@ nav{
     }
     .nav-enlace{
         margin: 10px 0px;
+    }
+    .nav-boton{
+        display: inline-block; /*para que aparezca el de menu*/
+    }
+    .desaparece{
+        display: none;
     }
 }
