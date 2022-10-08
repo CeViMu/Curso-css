@@ -41,6 +41,6 @@ nav{
         display: inline-block; /*para que aparezca el de menu*/
     }
     .desaparece{
-        display: none;
+        display: none; /*desaparece el enlace eleccionado*/
     }
 }
