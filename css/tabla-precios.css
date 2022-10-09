@@ -1,0 +1,64 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+h2{
+    font-weight: 700;
+}
+.container{
+    margin: 0 auto; /*esto centra el contenido*/
+    width: 90%;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tex-center{
+    text-align: center;
+}
+
+.columna{
+    background-color: rgb(238, 238, 238);
+    color: #333;
+    border: 1px solid #333;
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px gray; /*sombra lado derecho y abajo y los 5px son degradado*/
+    width: 23%; /*cada columna ocupa el 23% del espacio*/
+    box-sizing: border-box;/*el padding y border se calculan de forma automatica*/
+}
+
+.precio{
+    font-size: 50px;
+    color: #00dac7;
+}
+
+.btn-precio{
+    background-color: salmon;
+    display: block; /*transformación a bloque*/
+    padding: 10px;
+    color:#fff;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.btn-precio:hover{
+    background-color: red;
+}
+
+/*flexwrap impide que las columnas se amontonen*/
+@media (max-width: 1070px){
+    .columna{
+        width: 45%;
+        margin-bottom: 20px;
+    }   
+}
+
+@media (max-width: 600px){
+    .columna{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
